@@ -1,5 +1,22 @@
+body{
+  background-color: #282c34;
+  color: aqua;
+  padding: 7rem;
+}
+
+body  div {
+  font-size: 57px;
+}
+
+#profile {
+  margin: 4rem;
+  border-radius: 50%;
+  height: 10rem;
+}
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
