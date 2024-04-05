@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Victor Rodriguez Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web page developed with React.js that shows my portfolio and includes descriptions of my projects and interests about my training in Software Engineering.
 
-## Available Scripts
+## Dependencies
+- Husky
+Husky is a tool that allows you to define hooks in the git lifecycle, automating tasks such as testing and linting on specific events such as pre-commit or pre-push. In this React project, Husky is configured to run ESLint before each commit, thus ensuring that the code adheres to the defined style rules and maintains high quality.
 
-In the project directory, you can run:
+- ESLint
+ESLint is a linting tool for JavaScript that identifies and reports problematic patterns in code, maintaining coding style consistency and detecting common errors. In this personal portfolio, ESLint is used to ensure that JavaScript code complies with best coding practices and standards, thereby improving the readability of the code and making it easier to maintain.
 
-### `npm start`
+- React v18.2.0
+This project uses version 18.2.0 of React, specifically selected for its stability and compatibility with existing libraries and dependencies. It is recommended to maintain this version to ensure a consistent and predictable development environment, thus minimizing incompatibility risks and ensuring an optimal user experience in the personal portfolio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation of dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Prerequisite: node v20.11.1 previously pnpm
 
-### `npm test`
+1. Install with the command
+```
+pnpm install
+```
+2. Install husky
+```
+pnpm husky install
+```
+3. Install eslint
+```
+pnpm install eslint --save-dev
+```
+Additionally, you can install an extension for your text editor.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run
 
-### `npm run build`
+Run the project
+```
+pnpm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Other commands
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start linting
+```
+pnpm run lint
+```
 
-### `npm run eject`
+## How to run the tests
+- Test cases
+```
+pnpm run test
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project is under the ©MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
